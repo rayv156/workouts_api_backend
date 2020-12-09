@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :workouts
   resources :logs
   resources :users, only: [:create]
   post "/login", to: "users#login"
