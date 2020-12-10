@@ -6,9 +6,9 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-# user = User.create(username: "rayvel", password: "test1")
+user = User.create(username: "rayvel", password: "test1")
 
-#workout = Workout.create(level: [1,2,3], sets: [3,4,5], reps: [10,10,10,10,10,30], exercise: ["arm scissors", "scissor chops", "shoulder rotations", "bicep extensions", "shoulder taps", "clench/unclench"])
+workout = Workout.create(level: [1,2,3], sets: [3,4,5], reps: [10,10,10,10,10,30], exercise: ["arm scissors", "scissor chops", "shoulder rotations", "bicep extensions", "shoulder taps", "clench/unclench"])
 
 
 Workout.create(level: [1,2,3], sets: [3,5,7], reps: [5,20,5,10,20,10], exercise: ["squats", "squat hold punches", "squats", "side leg raises right leg", "squat hold punches", "side leg raises left leg"])
