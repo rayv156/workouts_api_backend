@@ -1,5 +1,4 @@
 class WorkoutsController < ApplicationController
-  skip_before_action :authorized
   before_action :set_workout, only: [:show, :update, :destroy]
 
   # GET /workouts
