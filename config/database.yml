@@ -84,3 +84,4 @@ production:
   username: workouts_api
   password: <%= ENV['WORKOUTS_API_DATABASE_PASSWORD'] %>
   secret: 'bienvenidos'
+  corsOrigins: 'https://naughty-yalow-c5e710.netlify.app, http://localhost:3001'
