@@ -83,3 +83,4 @@ production:
   database: workouts_api_production
   username: workouts_api
   password: <%= ENV['WORKOUTS_API_DATABASE_PASSWORD'] %>
+  secret: 'bienvenidos'
